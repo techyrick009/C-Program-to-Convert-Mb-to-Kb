@@ -1,0 +1,31 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+  unsigned long kb;
+  unsigned long mb;
+  
+
+//    clrscr();
+
+    printf(" Program to convert  Megabyte to Kilobyte :  ");
+
+    printf("\n\n Enter Length in Megabyte  : ");
+	scanf("%lu", &mb);
+    
+    kb = mb*1024;
+    
+    printf("\n\n %lu Mb  =  %lu Kb  \n",mb,kb);
+
+
+
+//	getch();
+
+
+}
